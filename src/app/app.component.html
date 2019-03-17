@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<input type="text" placeholder="enter your name" [(ngModel)]="title" />
+<h1>
+  Welcome to {{ title }}!
+</h1>
+<input type="button" value="name button" (click)="onNameClick($event);" />
